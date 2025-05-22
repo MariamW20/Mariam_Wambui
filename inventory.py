@@ -154,11 +154,11 @@ def main():
     """Main function to run the inventory management system."""
     # Initial inventory
     inventory = {
-        1: {'name': 'Laptop', 'price': 999.99, 'quantity': 10},
-        2: {'name': 'Mouse', 'price': 24.99, 'quantity': 25},
-        3: {'name': 'Keyboard', 'price': 49.99, 'quantity': 15},
-        4: {'name': 'Monitor', 'price': 149.99, 'quantity': 8},
-        5: {'name': 'Headphones', 'price': 79.99, 'quantity': 20}
+        1: {'name': 'Phone', 'price': 89.99, 'quantity': 10},
+        2: {'name': 'Laptop', 'price': 999.99, 'quantity': 25},
+        3: {'name': 'Earpod', 'price': 29.99, 'quantity': 15},
+        4: {'name': 'Keyboard', 'price': 149.99, 'quantity': 8},
+        5: {'name': 'Monitor', 'price': 299.99, 'quantity': 20}
     }
     
     while True:
@@ -181,7 +181,7 @@ def main():
         elif choice == '4':
             inventory = remove_item(inventory)
         elif choice == '5':
-            print("\nThank you for using the Inventory Management System. Goodbye!")
+            print("\nThank you for using our Inventory Management System. Always at your service!")
             break
         else:
             print("\nInvalid choice. Please enter a number between 1 and 5.")

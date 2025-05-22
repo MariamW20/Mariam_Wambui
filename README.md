@@ -1,2 +1,2 @@
-# Mariam_Wambui
+# LearnPython
 My Recess assignments.

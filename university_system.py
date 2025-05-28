@@ -1,8 +1,6 @@
 from datetime import datetime
-
-
 class UniversityMember:
-    """Base UniversityMember class - similar to BankAccount"""
+    """Base UniversityMember class"""
     
     def __init__(self, member_id, name, email):
         self.member_id = member_id
@@ -158,11 +156,11 @@ def main():
     print("=== UNIVERSITY MANAGEMENT SYSTEM DEMO ===\n")
     
     # Create different types of university members
-    student = Student("STU001", "Alice Johnson", "alice@university.edu", "S12345", "Computer Science")
-    lecturer = Lecturer("LEC001", "Dr. Bob Smith", "bob@university.edu", "E67890", "Computer Science", 75000)
-    staff = Staff("STA001", "Carol Brown", "carol@university.edu", "E54321", "Administrator", 45000)
+    student = Student("STU001", "Mariam Wambui", "mariam@university.edu", "S12345", "Software Engineering")
+    lecturer = Lecturer("LEC001", "Dr. Kish Mwangi", "kish@university.edu", "E67890", "Networks", 75000)
+    staff = Staff("STA001", "Yash Daniel", "yash@university.edu", "E54321", "Administrator", 45000)
     
-    # Test Student functionality
+    # Student functionality
     student.display_info()
     student.enroll_course("Data Structures", 3)
     student.enroll_course("Algorithms", 4)
@@ -170,7 +168,7 @@ def main():
     student.send_notification("Assignment due tomorrow!")
     print("\n" + "="*50 + "\n")
     
-    # Test Lecturer functionality
+    # Lecturer functionality
     lecturer.display_info()
     lecturer.assign_course("Introduction to Programming")
     lecturer.assign_course("Database Systems")
@@ -179,7 +177,7 @@ def main():
     lecturer.send_notification("Faculty meeting at 2 PM")
     print("\n" + "="*50 + "\n")
     
-    # Test Staff functionality
+    # Staff functionality
     staff.display_info()
     staff.assign_task("Process student applications")
     staff.assign_task("Update course catalog")
@@ -188,7 +186,7 @@ def main():
     staff.send_notification("New policy updates available")
     print("\n" + "="*50 + "\n")
     
-    # Test status updates (common functionality)
+    # status updates (common functionality)
     print("=== STATUS UPDATES ===")
     student.update_status("On Probation")
     lecturer.update_status("On Sabbatical")

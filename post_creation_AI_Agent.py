@@ -28,16 +28,17 @@ client = tweepy.Client(
     access_token_secret=ACCESS_TOKEN_SECRET
 )
 
-# Messages
+# Daily motivational messages
 messages = {
-    "Monday": "Monday Motivation: Start your week with a positive mindset! #MondayMotivation",
-    "Tuesday": "Tuesday Tips: Did you know that consistency is key to success? #TuesdayTips",
-    "Wednesday": "Wednesday Wisdom: Keep pushing forward, you're halfway through the week! #WednesdayWisdom",
-    "Thursday": "Thursday Thoughts: Reflect on your progress and set new goals! #ThursdayThoughts",
-    "Friday": "Friday Fun: It's almost the weekend! What are your plans? #FridayFun",
-    "Saturday": "Saturday Vibes: Take a break and enjoy some leisure time! #SaturdayVibes",
-    "Sunday": "Sunday Reflections: Prepare for the week ahead and set your intentions! #SundayReflections"
+    "Monday": "New week, new goals. Believe in yourself and start strong. 💪 #MindfulMonday",
+    "Tuesday": "Take one bold step today. Growth begins outside your comfort zone. 🚀 #TakeActionTuesday",
+    "Wednesday": "Pause. Breathe. You’re doing better than you think. ✨ #WellnessWednesday",
+    "Thursday": "Small steps every day lead to big changes. Keep going. 🚶‍♀️ #ThoughtfulThursday",
+    "Friday": "Celebrate your wins, no matter how small. You made it! 🎉 #FeelGoodFriday",
+    "Saturday": "Let go of the rush. Recharge. Reconnect. 🌿 #SelfcareSaturday",
+    "Sunday": "Reflect, reset, and rise again. A new week is coming. 🌞 #SoulfulSunday"
 }
+
 
 def post_daily_message():
     today = datetime.now().strftime('%A')

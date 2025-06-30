@@ -36,7 +36,7 @@ messages = {
     "Thursday": "Small steps every day lead to big changes. Keep going. 🚶‍♀️ #ThoughtfulThursday",
     "Friday": "Celebrate your wins, no matter how small. You made it! 🎉 #FeelGoodFriday",
     "Saturday": "Let go of the rush. Recharge. Reconnect. 🌿 #SelfcareSaturday",
-    "Sunday": "Reflect, reset, and rise again. A new week is coming. 🌞 #SoulfulSunday"
+    "Sunday": "Slow down. Rest is productive too. Let today be your pause. 🌸 #SereneSunday"
 }
 
 

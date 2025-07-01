@@ -50,7 +50,7 @@ def post_daily_message():
         except Exception as e:
             logging.error(f"Failed to post: {e}")
 
-schedule.every().day.at("08:00").do(post_daily_message)
+schedule.every().day.at("10:00").do(post_daily_message)
 
 logging.info("Scheduler started. Awaiting next post time...")
 while True:
